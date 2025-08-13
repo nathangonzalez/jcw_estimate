@@ -3,6 +3,7 @@ name: Bootstrap Repo, Setup Server, Enable Auto-Deploy
 on:
   workflow_dispatch: {}
 
+
 jobs:
   bootstrap:
     name: Create project files and CI
