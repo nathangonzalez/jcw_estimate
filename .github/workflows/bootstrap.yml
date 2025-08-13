@@ -3,6 +3,9 @@ name: Bootstrap Repo for Render Deployment
 on:
   workflow_dispatch: {}
 
+permissions:
+    contents: write   # <-- allow pushing commits
+
 jobs:
   bootstrap:
     name: Create project files for Render
